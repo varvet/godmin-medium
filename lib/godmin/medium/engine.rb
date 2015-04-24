@@ -1,5 +1,5 @@
 module Godmin
-  module MediumEditor
+  module Medium
     class Engine < ::Rails::Engine
     end
   end

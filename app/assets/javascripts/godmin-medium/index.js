@@ -10,21 +10,22 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require medium-editor/medium-editor
+//= require godmin-medium/medium-editor
 
 window.Godmin = window.Godmin || {};
 
-Godmin.MediumEditor = (function() {
+Godmin.Medium = (function() {
   function initialize() {
     initializeState();
   }
 
   function initializeState() {
-    initializeMediumEditor($('[data-behavior~=medium-editor]'));
+    initializeMedium($('[data-behavior~=medium-editor]'));
   }
 
-  function initializeMediumEditor($el) {
-    var editor = new MediumEditor($el, $(this).data("options"));
+  function initializeMedium($el) {
+    var editor = new MediumEditor($el, $el.data("options"));
+    $(editor.elements).css("height", "auto");
   }
 
   return {
@@ -33,5 +34,5 @@ Godmin.MediumEditor = (function() {
 })();
 
 $(function() {
-  Godmin.MediumEditor.initialize();
+  Godmin.Medium.initialize();
 });

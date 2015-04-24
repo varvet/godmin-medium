@@ -1,5 +1,5 @@
 module Godmin
-  module MediumEditor
+  module Medium
     VERSION = "0.1.0"
   end
 end
