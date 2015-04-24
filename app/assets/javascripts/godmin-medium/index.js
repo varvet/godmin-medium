@@ -24,12 +24,13 @@ Godmin.Medium = (function() {
   }
 
   function initializeMedium($el) {
-    var editor = new MediumEditor($el, $el.data("options"));
-    $(editor.elements).css("height", "auto");
+    var editor = new MediumEditor($el, $el.data('options'));
+    $(editor.elements).css('height', 'auto');
   }
 
   return {
-    initialize: initialize
+    initialize: initialize,
+    initializeMedium: initializeMedium
   };
 })();
 
