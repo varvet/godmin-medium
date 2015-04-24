@@ -1,6 +1,6 @@
 # Godmin Medium
 
-[![Gem Version](http://img.shields.io/gem/v/godmin-medium-editor.svg)](https://rubygems.org/gems/godmin-medium-editor)
+[![Gem Version](http://img.shields.io/gem/v/godmin-medium-editor.svg)](https://rubygems.org/gems/godmin-medium)
 
 Godmin Medium is a [MediumEditor](https://github.com/daviferreira/medium-editor) component for [Godmin](https://github.com/varvet/godmin) that adds an `f.medium_area` to forms.
 
