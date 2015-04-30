@@ -13,3 +13,10 @@
  *= require godmin-medium/medium-editor
  *= require godmin-medium/themes/bootstrap
  */
+
+ .medium-editor-placeholder:after {
+   top: 5px;
+   left: 10px;
+   color: #999;
+   font-style: normal;
+ }
