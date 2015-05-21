@@ -31,7 +31,7 @@ And finally, do the same with your `app/assets/stylesheets/application.css`:
 
 ## Usage
 
-Use the medium editor area in your form like so:
+Use the medium area in your form like so:
 
 ```erb
 <%= form_for @resource do |f| %>
@@ -45,7 +45,7 @@ Use the medium editor area in your form like so:
 
 ## Contributors
 
-https://github.com/varvet/godmin-medium-editor/graphs/contributors
+https://github.com/varvet/godmin-medium/graphs/contributors
 
 ## License
 
